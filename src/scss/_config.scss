@@ -1,16 +1,18 @@
 // Config file
 
-$font-family:
+// native font stack
+$font-family-default:
 	-apple-system,
 	BlinkMacSystemFont,
-	"Segoe UI",
+	'Segoe UI',
 	Roboto,
 	Helvetica,
 	Arial,
 	sans-serif,
-	"Apple Color Emoji",
-	"Segoe UI Emoji",
-	"Segoe UI Symbol",
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol',
 	sans-serif;
-
+// monospace
+$font-family-mono: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono','Courier', 'Courier New', monospace !default;
 $unit_gold:1.61803398875;
